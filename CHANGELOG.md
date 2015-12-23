@@ -5,6 +5,8 @@ CHANGELOG for Sulu
     * FEATURE     #1905 [All]             Added french translation
     * BUGFIX      #1893 [ContentBundle]   Fixed resource locator deferred for edit
     * BUGIFX      #1871 [ContentBundle]   Fixed url-generation and save button
+    * FEATURE     #xxxx [SecurityBundle]  Added sort function to getUserBySystem function in userRepository
+    * ENHANCEMENT #xxxx [ContactBundle]   Sorting accounts responsible user alphabetically
 
 * dev-master
     * HOTFIX      #1888 [ContentBundle]   used auto_name in phpcr migrations
