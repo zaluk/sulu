@@ -186,7 +186,7 @@ class ContentRepository implements ContentRepositoryInterface
             ->orderBy($this->qomFactory->propertyValue('node', 'jcr:path'))
             ->where($this->qomFactory->childNode('node', $path));
 
-        while ($path !== $contentPath) {
+        while (PathHelper::getPathDepth($path) > PathHelper::getPathDepth($contentPath)) {
             $path = PathHelper::getParentPath($path);
             $queryBuilder->orWhere($this->qomFactory->childNode('node', $path));
         }
