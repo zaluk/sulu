@@ -157,6 +157,7 @@ class SeoTwigExtensionTest extends \PHPUnit_Framework_TestCase
                     'noIndex' => true,
                     'noFollow' => true,
                     'hideInSitemap' => true,
+                    'customBlock' => 'Custom Block',
                 ],
                 [
                     'title' => 'Content title',
@@ -188,6 +189,7 @@ class SeoTwigExtensionTest extends \PHPUnit_Framework_TestCase
                     'noIndex' => false,
                     'noFollow' => false,
                     'hideInSitemap' => true,
+                    'customBlock' => '',
                 ],
                 [
                     'title' => 'Content title',
@@ -221,6 +223,7 @@ class SeoTwigExtensionTest extends \PHPUnit_Framework_TestCase
                     'noIndex' => false,
                     'noFollow' => false,
                     'hideInSitemap' => true,
+                    'customBlock' => '',
                 ],
                 [
                     'title' => 'Content title',
@@ -254,6 +257,7 @@ class SeoTwigExtensionTest extends \PHPUnit_Framework_TestCase
                     'noIndex' => false,
                     'noFollow' => false,
                     'hideInSitemap' => true,
+                    'customBlock' => '',
                 ],
                 [
                     'title' => 'Content title',
@@ -383,6 +387,7 @@ class SeoTwigExtensionTest extends \PHPUnit_Framework_TestCase
                     'noIndex' => true,
                     'noFollow' => true,
                     'hideInSitemap' => true,
+                    'customBlock' => 'Custom Block',
                 ],
                 [
                     'title' => 'Content title',
@@ -417,6 +422,7 @@ class SeoTwigExtensionTest extends \PHPUnit_Framework_TestCase
                     'title' => '"SEO title"',
                     'description' => '"SEO description"',
                     'keywords' => '"SEO keywords"',
+                    'customBlock' => '"Custom Block"',
                 ],
                 [],
                 [

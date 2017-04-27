@@ -51,6 +51,15 @@
         <input type="text" id="seo-canonical" data-mapper-property="canonicalUrl"
                class="form-element preview-update trigger-save-button"/>
     </div>
+    <div class="grid-row form-group">
+        <label for="seo-customBlock"><%=translate('sulu.content.seo.customBlock')%></label>
+        <textarea id="seo-customBlock" data-mapper-property="customBlock"
+                  class="form-element preview-update trigger-save-button"></textarea>
+
+        <span class="smaller-font grey-font">
+            <%= translate('sulu.content.seo.customBlock.note')%>
+        </span>
+    </div>
     <div class="form-group grid-row">
         <label><%=translate('sulu.content.seo.robots')%></label>
 

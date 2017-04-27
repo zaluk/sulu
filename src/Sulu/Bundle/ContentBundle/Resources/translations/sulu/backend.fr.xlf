@@ -262,6 +262,10 @@
                 <source>sulu.content.seo.description</source>
                 <target>Description (Meta Description)</target>
             </trans-unit>
+            <trans-unit id="441d99ff2f64652633a5ca2169f22254" resname="sulu.content.seo.customBlock">
+                <source>sulu.content.seo.customBlock</source>
+                <target>Bloc personnalisé</target>
+            </trans-unit>
             <trans-unit id="442d99ff2f64652633a5ca2169f22254" resname="sulu.content.seo.keywords">
                 <source>sulu.content.seo.keywords</source>
                 <target>Mots-clefs (Meta Keywords)</target>
@@ -321,6 +325,10 @@
             <trans-unit id="c50af522ac181350142c0b4720e29a2f" resname="sulu.content.seo.descriptions.note">
                 <source>sulu.content.seo.descriptions.note</source>
                 <target>La meta description est limitée à 155 caractères.</target>
+            </trans-unit>
+            <trans-unit id="c50af522ac181350142c0b4720e29a2f" resname="sulu.content.seo.customBlock.note">
+                <source>sulu.content.seo.customBlock.note</source>
+                <target>This block is added as is in head section</target>
             </trans-unit>
             <trans-unit id="a945ccdbf95d2852ab6390cea24ebb6f" resname="content.contents.title">
                 <source>content.contents.title</source>

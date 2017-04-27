@@ -58,6 +58,7 @@ class SeoStructureExtensionTest extends \PHPUnit_Framework_TestCase
             'noIndex' => true,
             'noFollow' => true,
             'hideInSitemap' => true,
+            'customBlock' => 'Custom Block',
         ];
         $this->extension->setLanguageCode('de', 'i18n', null);
         $this->extension->save($this->node->reveal(), $data, 'default', 'de');
@@ -113,6 +114,7 @@ class SeoStructureExtensionTest extends \PHPUnit_Framework_TestCase
             'noIndex' => true,
             'noFollow' => true,
             'hideInSitemap' => true,
+            'customBlock' => 'Custom Block',
         ];
 
         $content = [
@@ -178,6 +180,7 @@ class SeoStructureExtensionTest extends \PHPUnit_Framework_TestCase
                 'noIndex' => false,
                 'noFollow' => false,
                 'hideInSitemap' => false,
+                'customBlock' => '',
             ],
             $result
         );

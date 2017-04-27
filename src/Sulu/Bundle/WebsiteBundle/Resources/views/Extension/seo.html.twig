@@ -13,6 +13,7 @@
 {% set seoTitle = seo.title|default(content.title|default()) %}
 {% set seoDescription = seo.description|default() %}
 {% set seoKeywords = seo.keywords|default() %}
+{% set seoCustomBlock = seo.customBlock|default() %}
 
 {% set seoRobots = '' %}
 {%- if seo.noIndex|default(false) -%}
@@ -73,4 +74,11 @@
 {%- block canonical -%}
     {#- Set canonical to itself if a bot clone the page -#}
     <link rel="canonical" href="{{ seoCanonical|default(app.request.uri) }}"/>
+{%- endblock -%}
+
+
+{%- block customBlock -%}
+
+        {{ seoCustomBlock | raw }}
+
 {%- endblock -%}

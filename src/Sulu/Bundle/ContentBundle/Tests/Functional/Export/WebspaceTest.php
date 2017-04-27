@@ -158,6 +158,7 @@ class WebspaceTest extends SuluTestCase
                     'noIndex' => '0',
                     'noFollow' => '1',
                     'hideInSitemap' => '1',
+                    'customBlock' => 'Seo Custom Block1',
                 ],
                 'excerpt' => [
                     'title' => 'Excerpt Test1',
@@ -178,6 +179,7 @@ class WebspaceTest extends SuluTestCase
                     'noIndex' => '1',
                     'noFollow' => '0',
                     'hideInSitemap' => '1',
+                    'customBlock' => 'Seo Custom Block2',
                 ],
                 'excerpt' => [
                     'title' => 'Excerpt Test2',
@@ -312,6 +314,12 @@ class WebspaceTest extends SuluTestCase
                         '',
                         false,
                         $extensionData['seo']['hideInSitemap']
+                    ),
+                    'customBlock' => $this->createItemArray(
+                        'customBlock',
+                        '',
+                        true,
+                        $extensionData['seo']['customBlock']
                     ),
                 ],
                 'excerpt' => [

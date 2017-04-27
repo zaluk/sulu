@@ -43,6 +43,7 @@ class SeoStructureExtension extends AbstractExtension implements ExportExtension
         'noIndex',
         'noFollow',
         'hideInSitemap',
+        'customBlock'
     ];
 
     /**
@@ -67,6 +68,7 @@ class SeoStructureExtension extends AbstractExtension implements ExportExtension
         $this->saveProperty($node, $data, 'noIndex', false);
         $this->saveProperty($node, $data, 'noFollow', false);
         $this->saveProperty($node, $data, 'hideInSitemap', false);
+        $this->saveProperty($node, $data, 'customBlock', false);
     }
 
     /**
@@ -82,6 +84,7 @@ class SeoStructureExtension extends AbstractExtension implements ExportExtension
             'noIndex' => $this->loadProperty($node, 'noIndex', false),
             'noFollow' => $this->loadProperty($node, 'noFollow', false),
             'hideInSitemap' => $this->loadProperty($node, 'hideInSitemap', false),
+            'customBlock' => $this->loadProperty($node, 'customBlock', false),
         ];
     }
 
