@@ -262,7 +262,7 @@
                 <source>sulu.content.seo.description</source>
                 <target>Beschrijving (Meta description)</target>
             </trans-unit>
-            <trans-unit id="441d99ff2f64652633a5ca2169f22254" resname="sulu.content.seo.customBlock">
+            <trans-unit id="150d83df2f17f647b27142e5b73ce73a" resname="sulu.content.seo.customBlock">
                 <source>sulu.content.seo.customBlock</source>
                 <target>Aangepast blokje</target>
             </trans-unit>
@@ -326,7 +326,7 @@
                 <source>sulu.content.seo.descriptions.note</source>
                 <target>De meta-beschrijving is gelimiteerd tot 155 karakters.</target>
             </trans-unit>
-            <trans-unit id="c50af522ac181350142c0b4720e29a2f" resname="sulu.content.seo.customBlock.note">
+            <trans-unit id="e8ef3f17eede554f6d6b53daeb8fda89" resname="sulu.content.seo.customBlock.note">
                 <source>sulu.content.seo.customBlock.note</source>
                 <target>This block is added as is in head section</target>
             </trans-unit>
